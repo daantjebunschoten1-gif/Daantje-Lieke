@@ -44,21 +44,18 @@ project:
         # - file: Content/PySim/7_arbeid.ipynb
         # - file: Content/PySim/8_thermostaat.ipynb
         # - file: Content/PySim/9_entropie.ipynb
-
     - title: Labs
       file: Content/Labs/uitleg.md
       children:
         - title: Soortelijke warmte
+          file: Content/Labs/cwater.ipynb
           children:
-            - file: Content/Labs/cwater.ipynb
             - file: Content/Labs/Verdamping.ipynb
             - file: Content/Labs/Warmtecapaciteit.ipynb
             - file: Content/Labs/cappucino.ipynb
         - title: Druk
+          file: Content/Labs/druksensorijken.ipynb
           children:
-            - file: Content/Labs/druksensorijken.ipynb
             - file: Content/Labs/pV_diagram.ipynb
         - title: Koelbuis
-          children:
-            - file: Content/Labs/koelbuis.ipynb
-            - file: Content/Labs/koelbuis.png
+          file: Content/Labs/koelbuis.ipynb
