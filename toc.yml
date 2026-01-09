@@ -49,14 +49,14 @@ project:
       file: Content/Labs/uitleg.md
       children:
         - title: Soortelijke warmte
-          file: Content/Labs/cwater.ipynb
           children:
+            - file: Content/Labs/cwater.ipynb
             - file: Content/Labs/Verdamping.ipynb
             - file: Content/Labs/Warmtecapaciteit.ipynb
             - file: Content/Labs/cappucino.ipynb
         - title: Druk
-          file: Content/Labs/druksensorijken.ipynb
           children:
             - file: Content/Labs/pV_diagram.ipynb
+            - file: Content/Labs/cwater.ipynb
         - title: Koelbuis
           file: Content/Labs/koelbuis.ipynb
